@@ -50,44 +50,59 @@
     + byte, short, long: các biến số nguyên với phạm vi khác nhau
 
 ![alt text](image-2.png)
--> Chi tiết hơn về từng loại của biến nguyên thủy:
+
+**-> **Chi tiết hơn về từng loại của biến nguyên thủy:
+
 ![alt text](image-4.png)
 
 > ***Làm quen với vòng lặp:***
+> 
  - **for loop**:
+
   ![alt text](image-5.png)
 
  - **while loop**:
+   
  ![alt text](image-6.png)
 
  - **do-while loop**:
+   
  ![alt text](image-7.png)
 
 > ***Câu lệnh rẽ nhánh:***
  - **if-else:**
+   
  ![alt text](image-8.png)
 
  - **switch-case:**
+   
  ![alt text](image-9.png)
 
 > ***Mảng:***
  - **Mảng** là tập hợp các giá trị cùng kiểu dữ liệu, được sắp xếp theo chỉ mục
+   
   ![alt text](image-10.png)
  - **Hoặc** khai báo một mảng với kích thước cố định:
+   
   ![alt text](image-11.png)  
 
 7. Tổng quan về ***Class*** và ***Object***:
+
     ![alt text](image-12.png)
 
 - **Class** là một thực thể xác định hành vi mà một đối tượng có và sẽ có, nói cách khác một lớp là một bản thiết kế hoặc một tập hợp hướng dẫn để xây dựng các đặc tính của một đối tượng cụ thể. **Class** chứa các thuộc tính(biến) và phương thức(hàm). Cách tạo lớp trong Java như sau:
+  
      ![alt text](image-13.png)
+  
     + **class**: từ khóa để tạo một class
     + **<class_name>**:tên class bạn định tạo nó sẽ được viết liền và viết HOA chữ cái đầu tiên của từng từ (quy tắc PascalCase)
     + **field**: biến đối tượng
     + **method**: phương thức
 
 - **Object** là một thực thể cụ thể được tạo từ class, mang các thuộc tính và hành vi đã định nghĩa trong class.
-      ![alt text](image-14.png)
+
+    ![alt text](image-14.png)
+  
     + **<class_name>**: kiểu dữ liệu của đối tượng
     + **ReferenceVariable**: tên tham chiếu của đối tượng
     + **new**: từ khóa dùng tạo đối tượng
@@ -95,10 +110,12 @@
 
 8. ***Từ khóa this, constructor, access modifier, getter, setter, static***
 > **từ khóa this:** tham chiếu đến đối tượng hiện tại của lớp.
-    ![alt text](image-15.png)
+
+   ![alt text](image-15.png)
 
 > **Constructor:** phương thức đặc biệt để khởi tạo đối tượng.Constructor không có kiểu trả về và có cùng tên với lớp
-    ![alt text](image-16.png)
+
+   ![alt text](image-16.png)
 
 > **Access Modifier:** Xác định mức độ truy cập của các lớp, phương thức, và biến (**public, private, protected**).
     - **public**: Có thể truy cập từ mọi nơi
@@ -110,11 +127,13 @@
  - là các phương thức trong một lớp, được sử dụng để lấy và gán giá trị cho các biến thành viên của lớp một cách an toàn, đặc biệt khi các biến đó được khai báo là ***private***.
     + **Getter:** Dùng để lấy giá trị của một biến thành viên
     + **Setter:** Dùng để gán giá trị cho biến thành viên
-    ![alt text](image-17.png)
+    
+     ![alt text](image-17.png)
 
 > **Static:** Chỉ định một thành viên hoặc phương thức thuộc về lớp, không thuộc về đối tượng. Điều này có nghĩa là các thành viên và phương thức **static** có thể được truy cập mà không cần tạo đối tượng của lớp.
 - Các trường hợp sử dụng **static**:
   + **Biến tĩnh** (static variable): Chỉ có một bản sao cho tất cả đối tượng của lớp.
   + **Phương thức tĩnh** (static method):Có thể gọi trực tiếp từ tên lớp mà không cần đối tượng
 => so sánh **static** với **non-static**:
-  ![alt text](image-18.png)
+
+   ![alt text](image-18.png)
